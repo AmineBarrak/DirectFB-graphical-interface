@@ -1,0 +1,6 @@
+Device Name    = AUD[0].PPTask
+PP State    = 2
+PPInState    = 2
+GetDataState    = 0
+PPQueueTail    = 62219
+PPQueueFront    = 62218

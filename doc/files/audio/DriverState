@@ -1,0 +1,23 @@
+
+Component = AUD[0].DecTask
+Sampling Frequency    = 0
+Frames Decoded    = 44328
+No. Of Channels = 2
+Frame Duration = 1152000 ms
+
+Component = AUD[1].DecTask
+Sampling Frequency    = 0
+Frames Decoded    = 0
+No. Of Channels = 2
+Frame Duration = 0 ms
+
+Component = AUD[0].PESTask
+Stream Content   = 4
+Stream Type = PES 
+Free PES Buffer Size  = 2097152
+
+Component = AUD[1].PESTask
+Stream Content   = 0
+Stream Type = Unknown 
+Free PES Buffer Size  = 2097152
+PES Buffer Size (bytes) = 2097152

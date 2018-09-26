@@ -1,0 +1,29 @@
+
+--n'oublier pas de regler les liens dans le code :
+	* du font de l'ecriture (vous pouver creer un dossier dans votre fichier target)
+	fichier par défaut dans le target: /root/amin/decker.ttf...
+	*les autres PATH des fichiers sont déja réglés
+
+
+suiver ces étapes pour executer l'application df_fire.c sur votre BUILDROOT "BOXER":
+
+1- copier le contenue du code dans un autre fichier .c sous le repertoire des exemples du DirectFB:  DirectFB-examples-st-1.2.0
+
+2- ensuite compiler seulement le répertoire des exemples de DirectFB avec la commande : make DirectFB-examples-st-rebuild
+
+3- copier votre nouvelle image dans un clé USB et connecte là sous votre plateforme.
+
+4- ouvrer votre minicom et donner le PATH suivant:
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/libstsdk_custom003030_h253_ST40_LINUX_32BITS/
+
+5- lancer l'application sous le nom du fichier que vous avez choisie au début.  fichier
+
+6- vous pouvez utiliser fichier --help pour voir les options que vous pouvez utiliser avec cette application
+
+
+RQ:
+vous trouver dans le dossier 'doc' tous fcihier dont vous aurez besoin.
+s'il y a une erreur survenu vous pouver me contacter:
+--  aminebarrak@live.com
+--  +216 20910854
+
